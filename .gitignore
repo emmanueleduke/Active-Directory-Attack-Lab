@@ -1,2 +1,5 @@
 rockyou.txt
 *.txt
+*.sam
+*.ntds
+*.hash
