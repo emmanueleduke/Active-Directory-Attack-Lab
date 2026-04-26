@@ -156,6 +156,15 @@ Charlie:1001:aad3b435b51404eeaad3b435b51404ee:d4e632aaebb76176ab11b066389914fc::
 ![SAM Dump](screenshots/05_sam_dump.png)
 *Fig 5: SAM hashes successfully dumped from SPIDERMAN via relayed credentials*
 
+![SMB Shell](screenshots/06_smb_shell.png)
+*Fig 6: Interactive SMB shell established via ntlmrelayx on port 11000*
+
+![C Drive Access](screenshots/07_c_drive_access.png)
+*Fig 7: Full C$ drive access on SPIDERMAN via relayed credentials*
+
+![Admin Directory](screenshots/08_admin_directory.png)
+*Fig 8: Browsing Administrator profile directory via SMB shell*
+
 ---
 
 ### Step 8 — Crack the Hashes
