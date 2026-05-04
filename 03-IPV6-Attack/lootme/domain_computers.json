@@ -1,0 +1,382 @@
+[{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999+00:00"
+        ],
+        "badPasswordTime": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "badPwdCount": [
+            0
+        ],
+        "cn": [
+            "THEPUNISHER"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dNSHostName": [
+            "THEPUNISHER.EMMY.local"
+        ],
+        "dSCorePropagationData": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "distinguishedName": [
+            "CN=THEPUNISHER,CN=Computers,DC=EMMY,DC=local"
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            false
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "2026-05-03 08:25:21.194580+00:00"
+        ],
+        "lastLogonTimestamp": [
+            "2026-05-03 05:34:30.888231+00:00"
+        ],
+        "localPolicyFlags": [
+            0
+        ],
+        "logonCount": [
+            81
+        ],
+        "msDS-SupportedEncryptionTypes": [
+            28
+        ],
+        "name": [
+            "THEPUNISHER"
+        ],
+        "objectCategory": [
+            "CN=Computer,CN=Schema,CN=Configuration,DC=EMMY,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user",
+            "computer"
+        ],
+        "objectGUID": [
+            "{41d38fee-3bc4-4dc5-b5bf-0ffbcfcccd84}"
+        ],
+        "objectSid": [
+            "S-1-5-21-3950249079-1792188905-2039997322-1116"
+        ],
+        "operatingSystem": [
+            "Windows 11 Enterprise Evaluation"
+        ],
+        "operatingSystemVersion": [
+            "10.0 (26200)"
+        ],
+        "primaryGroupID": [
+            515
+        ],
+        "pwdLastSet": [
+            "2026-04-18 15:38:24.848618+00:00"
+        ],
+        "sAMAccountName": [
+            "THEPUNISHER$"
+        ],
+        "sAMAccountType": [
+            805306369
+        ],
+        "servicePrincipalName": [
+            "RestrictedKrbHost/THEPUNISHER",
+            "HOST/THEPUNISHER",
+            "RestrictedKrbHost/THEPUNISHER.EMMY.local",
+            "HOST/THEPUNISHER.EMMY.local"
+        ],
+        "uSNChanged": [
+            114721
+        ],
+        "uSNCreated": [
+            37442
+        ],
+        "userAccountControl": [
+            4096
+        ],
+        "whenChanged": [
+            "2026-05-03 05:34:30+00:00"
+        ],
+        "whenCreated": [
+            "2026-04-18 15:38:24+00:00"
+        ]
+    },
+    "dn": "CN=THEPUNISHER,CN=Computers,DC=EMMY,DC=local"
+},{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999+00:00"
+        ],
+        "badPasswordTime": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "badPwdCount": [
+            0
+        ],
+        "cn": [
+            "SPIDERMAN"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dNSHostName": [
+            "SPIDERMAN.EMMY.local"
+        ],
+        "dSCorePropagationData": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "distinguishedName": [
+            "CN=SPIDERMAN,CN=Computers,DC=EMMY,DC=local"
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            false
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "2026-05-03 08:08:26.020994+00:00"
+        ],
+        "lastLogonTimestamp": [
+            "2026-05-03 05:34:39.732370+00:00"
+        ],
+        "localPolicyFlags": [
+            0
+        ],
+        "logonCount": [
+            65
+        ],
+        "msDS-SupportedEncryptionTypes": [
+            28
+        ],
+        "name": [
+            "SPIDERMAN"
+        ],
+        "objectCategory": [
+            "CN=Computer,CN=Schema,CN=Configuration,DC=EMMY,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user",
+            "computer"
+        ],
+        "objectGUID": [
+            "{b2b81d7b-6814-4466-907c-e1359a34e19c}"
+        ],
+        "objectSid": [
+            "S-1-5-21-3950249079-1792188905-2039997322-1115"
+        ],
+        "operatingSystem": [
+            "Windows 11 Enterprise Evaluation"
+        ],
+        "operatingSystemVersion": [
+            "10.0 (26200)"
+        ],
+        "primaryGroupID": [
+            515
+        ],
+        "pwdLastSet": [
+            "2026-04-18 15:26:36.093956+00:00"
+        ],
+        "sAMAccountName": [
+            "SPIDERMAN$"
+        ],
+        "sAMAccountType": [
+            805306369
+        ],
+        "servicePrincipalName": [
+            "RestrictedKrbHost/SPIDERMAN",
+            "HOST/SPIDERMAN",
+            "RestrictedKrbHost/SPIDERMAN.EMMY.local",
+            "HOST/SPIDERMAN.EMMY.local"
+        ],
+        "uSNChanged": [
+            114727
+        ],
+        "uSNCreated": [
+            37415
+        ],
+        "userAccountControl": [
+            4096
+        ],
+        "whenChanged": [
+            "2026-05-03 05:34:39+00:00"
+        ],
+        "whenCreated": [
+            "2026-04-18 15:26:36+00:00"
+        ]
+    },
+    "dn": "CN=SPIDERMAN,CN=Computers,DC=EMMY,DC=local"
+},{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999+00:00"
+        ],
+        "badPasswordTime": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "badPwdCount": [
+            0
+        ],
+        "cn": [
+            "HYDRA-DC"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dNSHostName": [
+            "HYDRA-DC.EMMY.local"
+        ],
+        "dSCorePropagationData": [
+            "2026-04-15 22:02:22+00:00",
+            "1601-01-01 00:00:01+00:00"
+        ],
+        "distinguishedName": [
+            "CN=HYDRA-DC,OU=Domain Controllers,DC=EMMY,DC=local"
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "2026-05-04 08:09:43.537167+00:00"
+        ],
+        "lastLogonTimestamp": [
+            "2026-04-26 07:21:23.257700+00:00"
+        ],
+        "localPolicyFlags": [
+            0
+        ],
+        "logonCount": [
+            150
+        ],
+        "memberOf": [
+            "CN=Pre-Windows 2000 Compatible Access,CN=Builtin,DC=EMMY,DC=local",
+            "CN=Cert Publishers,OU=Group,DC=EMMY,DC=local"
+        ],
+        "msDFSR-ComputerReferenceBL": [
+            "CN=HYDRA-DC,CN=Topology,CN=Domain System Volume,CN=DFSR-GlobalSettings,CN=System,DC=EMMY,DC=local"
+        ],
+        "msDS-GenerationId": [
+            {
+                "encoded": "tC14kU333mE=",
+                "encoding": "base64"
+            }
+        ],
+        "msDS-SupportedEncryptionTypes": [
+            28
+        ],
+        "name": [
+            "HYDRA-DC"
+        ],
+        "objectCategory": [
+            "CN=Computer,CN=Schema,CN=Configuration,DC=EMMY,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user",
+            "computer"
+        ],
+        "objectGUID": [
+            "{941e293c-002b-4539-9732-355fa240f842}"
+        ],
+        "objectSid": [
+            "S-1-5-21-3950249079-1792188905-2039997322-1000"
+        ],
+        "operatingSystem": [
+            "Windows Server 2022 Standard Evaluation"
+        ],
+        "operatingSystemVersion": [
+            "10.0 (20348)"
+        ],
+        "primaryGroupID": [
+            516
+        ],
+        "pwdLastSet": [
+            "2026-04-15 22:02:52.484829+00:00"
+        ],
+        "rIDSetReferences": [
+            "CN=RID Set,CN=HYDRA-DC,OU=Domain Controllers,DC=EMMY,DC=local"
+        ],
+        "sAMAccountName": [
+            "HYDRA-DC$"
+        ],
+        "sAMAccountType": [
+            805306369
+        ],
+        "serverReferenceBL": [
+            "CN=HYDRA-DC,CN=Servers,CN=Default-First-Site-Name,CN=Sites,CN=Configuration,DC=EMMY,DC=local"
+        ],
+        "servicePrincipalName": [
+            "Dfsr-12F9A27C-BF97-4787-9364-D31B6C55EB04/HYDRA-DC.EMMY.local",
+            "ldap/HYDRA-DC.EMMY.local/ForestDnsZones.EMMY.local",
+            "ldap/HYDRA-DC.EMMY.local/DomainDnsZones.EMMY.local",
+            "DNS/HYDRA-DC.EMMY.local",
+            "GC/HYDRA-DC.EMMY.local/EMMY.local",
+            "RestrictedKrbHost/HYDRA-DC.EMMY.local",
+            "RestrictedKrbHost/HYDRA-DC",
+            "RPC/fbeacfe3-2fd5-46a8-ad92-5056150bc364._msdcs.EMMY.local",
+            "HOST/HYDRA-DC/EMMY",
+            "HOST/HYDRA-DC.EMMY.local/EMMY",
+            "HOST/HYDRA-DC",
+            "HOST/HYDRA-DC.EMMY.local",
+            "HOST/HYDRA-DC.EMMY.local/EMMY.local",
+            "E3514235-4B06-11D1-AB04-00C04FC2DCD2/fbeacfe3-2fd5-46a8-ad92-5056150bc364/EMMY.local",
+            "ldap/HYDRA-DC/EMMY",
+            "ldap/fbeacfe3-2fd5-46a8-ad92-5056150bc364._msdcs.EMMY.local",
+            "ldap/HYDRA-DC.EMMY.local/EMMY",
+            "ldap/HYDRA-DC",
+            "ldap/HYDRA-DC.EMMY.local",
+            "ldap/HYDRA-DC.EMMY.local/EMMY.local"
+        ],
+        "uSNChanged": [
+            114942
+        ],
+        "uSNCreated": [
+            12293
+        ],
+        "userAccountControl": [
+            532480
+        ],
+        "userCertificate": [
+            {
+                "encoded": "MIIGOjCCBSKgAwIBAgITUwAAAAIrmLOzQUntzQAAAAAAAjANBgkqhkiG9w0BAQsFADBIMRUwEwYKCZImiZPyLGQBGRYFbG9jYWwxFDASBgoJkiaJk/IsZAEZFgRFTU1ZMRkwFwYDVQQDExBFTU1ZLUhZRFJBLURDLUNBMB4XDTI2MDUwMzEwNDczOFoXDTI3MDUwMzEwNDczOFowHjEcMBoGA1UEAxMTSFlEUkEtREMuRU1NWS5sb2NhbDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAJutVosewZ9ClSFXn4DQMhV7y6qclXX+BBZuqTAJqkYD6udwn9q811zU0p9zi0KSz963FyvN6OXRzLKsFR/KXLgfsQWkymBe/t9qbIxritMmXEtDpPU6w0/bROVwsKWcWPTc2PizDSQmDSKlwclNeHgKwedKV4M5e90xPJAwibQxn1uOBBhkRDVxuHaoibK7FcWJvayWQaSx26xS00EuECfRcJZ3/YC1JUZYJUgdv5AuRxkXBvt4/v9s/bvxHVcrY3sgFjiAbrgC+82uArs7EHuaKZ8+6xQjOeBqSGDQlrOW0nvcyhQKdoOgBMLghEzsHG9TLOH5xxa0/cNB1jLophkCAwEAAaOCA0UwggNBMC8GCSsGAQQBgjcUAgQiHiAARABvAG0AYQBpAG4AQwBvAG4AdAByAG8AbABsAGUAcjAdBgNVHSUEFjAUBggrBgEFBQcDAgYIKwYBBQUHAwEwDgYDVR0PAQH/BAQDAgWgMHgGCSqGSIb3DQEJDwRrMGkwDgYIKoZIhvcNAwICAgCAMA4GCCqGSIb3DQMEAgIAgDALBglghkgBZQMEASowCwYJYIZIAWUDBAEtMAsGCWCGSAFlAwQBAjALBglghkgBZQMEAQUwBwYFKw4DAgcwCgYIKoZIhvcNAwcwHQYDVR0OBBYEFBlgx3PbA0YuFwCN0YXujnXI+Eb/MB8GA1UdIwQYMBaAFPiT+XWoal1bexEKzXirbccLZi4NMIHOBgNVHR8EgcYwgcMwgcCggb2ggbqGgbdsZGFwOi8vL0NOPUVNTVktSFlEUkEtREMtQ0EsQ049SFlEUkEtREMsQ049Q0RQLENOPVB1YmxpYyUyMEtleSUyMFNlcnZpY2VzLENOPVNlcnZpY2VzLENOPUNvbmZpZ3VyYXRpb24sREM9RU1NWSxEQz1sb2NhbD9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0P2Jhc2U/b2JqZWN0Q2xhc3M9Y1JMRGlzdHJpYnV0aW9uUG9pbnQwgcEGCCsGAQUFBwEBBIG0MIGxMIGuBggrBgEFBQcwAoaBoWxkYXA6Ly8vQ049RU1NWS1IWURSQS1EQy1DQSxDTj1BSUEsQ049UHVibGljJTIwS2V5JTIwU2VydmljZXMsQ049U2VydmljZXMsQ049Q29uZmlndXJhdGlvbixEQz1FTU1ZLERDPWxvY2FsP2NBQ2VydGlmaWNhdGU/YmFzZT9vYmplY3RDbGFzcz1jZXJ0aWZpY2F0aW9uQXV0aG9yaXR5MD8GA1UdEQQ4MDagHwYJKwYBBAGCNxkBoBIEEDwpHpQrADlFlzI1X6JA+EKCE0hZRFJBLURDLkVNTVkubG9jYWwwTwYJKwYBBAGCNxkCBEIwQKA+BgorBgEEAYI3GQIBoDAELlMtMS01LTIxLTM5NTAyNDkwNzktMTc5MjE4ODkwNS0yMDM5OTk3MzIyLTEwMDAwDQYJKoZIhvcNAQELBQADggEBAIEZrTSADffSyz1vFn2xilOjj0WQf57dkTKNpBqJrf/E+VV9qblu7O//ywX6eWaTfcKGsefGgqFfkAwkjaqYyyx6VxwPNpcVJ5OAw33HX8ClZhZd8KuN+KzaEeJpwxhOnzGPY19ah33mLCTRaJ1oV+wCYl/nwHLx6IF2I46Rp1BbF8DvMu7Y5j6SzaRvaFwW5oNik9EomxV3Xn5uNMc4aHPgHMG8aO+iUlS0BJooAtqos4R5+jhOM3Iuy0xjM1cjI5RAuxdzyLZl74K3RBH0x94cwzFdFc4DEoD4l4JdpOC451w0rYktP1oLiv1ZoNLJmwedLDnAAaBEsN/7x+aBV+c=",
+                "encoding": "base64"
+            }
+        ],
+        "whenChanged": [
+            "2026-05-03 10:57:38+00:00"
+        ],
+        "whenCreated": [
+            "2026-04-15 22:02:22+00:00"
+        ]
+    },
+    "dn": "CN=HYDRA-DC,OU=Domain Controllers,DC=EMMY,DC=local"
+}]

@@ -1,0 +1,738 @@
+[{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999+00:00"
+        ],
+        "adminCount": [
+            1
+        ],
+        "badPasswordTime": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "badPwdCount": [
+            0
+        ],
+        "cn": [
+            "SOL Service"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "2026-04-16 08:58:15+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "description": [
+            "My password is Mypassword123$"
+        ],
+        "displayName": [
+            "SOL Service"
+        ],
+        "distinguishedName": [
+            "CN=SOL Service,CN=Users,DC=EMMY,DC=local"
+        ],
+        "givenName": [
+            "SOL"
+        ],
+        "instanceType": [
+            4
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "logonCount": [
+            0
+        ],
+        "memberOf": [
+            "CN=Group Policy Creator Owners,OU=Group,DC=EMMY,DC=local",
+            "CN=Domain Admins,OU=Group,DC=EMMY,DC=local",
+            "CN=Enterprise Admins,OU=Group,DC=EMMY,DC=local",
+            "CN=Schema Admins,OU=Group,DC=EMMY,DC=local",
+            "CN=Administrators,CN=Builtin,DC=EMMY,DC=local"
+        ],
+        "name": [
+            "SOL Service"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=EMMY,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{a00fe214-6d90-4626-b14c-258c1ee81923}"
+        ],
+        "objectSid": [
+            "S-1-5-21-3950249079-1792188905-2039997322-1113"
+        ],
+        "primaryGroupID": [
+            513
+        ],
+        "pwdLastSet": [
+            "2026-04-16 11:06:33.842146+00:00"
+        ],
+        "sAMAccountName": [
+            "SQLService"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "servicePrincipalName": [
+            "HYDRA-DC/SQLService.EMMY.local:60111"
+        ],
+        "sn": [
+            "Service"
+        ],
+        "uSNChanged": [
+            16603
+        ],
+        "uSNCreated": [
+            16503
+        ],
+        "userAccountControl": [
+            66048
+        ],
+        "userPrincipalName": [
+            "SQLService@EMMY.local"
+        ],
+        "whenChanged": [
+            "2026-04-16 11:06:33+00:00"
+        ],
+        "whenCreated": [
+            "2026-04-16 08:42:59+00:00"
+        ]
+    },
+    "dn": "CN=SOL Service,CN=Users,DC=EMMY,DC=local"
+},{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999+00:00"
+        ],
+        "badPasswordTime": [
+            "2026-05-03 05:38:17.054029+00:00"
+        ],
+        "badPwdCount": [
+            0
+        ],
+        "cn": [
+            "Peter Parker"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "displayName": [
+            "Peter Parker"
+        ],
+        "distinguishedName": [
+            "CN=Peter Parker,CN=Users,DC=EMMY,DC=local"
+        ],
+        "givenName": [
+            "Peter"
+        ],
+        "instanceType": [
+            4
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "2026-05-03 05:38:26.907404+00:00"
+        ],
+        "lastLogonTimestamp": [
+            "2026-05-03 05:38:26.705711+00:00"
+        ],
+        "logonCount": [
+            119
+        ],
+        "name": [
+            "Peter Parker"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=EMMY,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{113cd0f4-34e3-425a-940e-6e1679e5d9a0}"
+        ],
+        "objectSid": [
+            "S-1-5-21-3950249079-1792188905-2039997322-1112"
+        ],
+        "primaryGroupID": [
+            513
+        ],
+        "pwdLastSet": [
+            "2026-04-18 08:27:26.885691+00:00"
+        ],
+        "sAMAccountName": [
+            "pparker"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "sn": [
+            "Parker"
+        ],
+        "uSNChanged": [
+            114742
+        ],
+        "uSNCreated": [
+            16496
+        ],
+        "userAccountControl": [
+            66048
+        ],
+        "userPrincipalName": [
+            "pparker@EMMY.local"
+        ],
+        "whenChanged": [
+            "2026-05-03 05:38:26+00:00"
+        ],
+        "whenCreated": [
+            "2026-04-16 08:36:08+00:00"
+        ]
+    },
+    "dn": "CN=Peter Parker,CN=Users,DC=EMMY,DC=local"
+},{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999+00:00"
+        ],
+        "adminCount": [
+            1
+        ],
+        "badPasswordTime": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "badPwdCount": [
+            0
+        ],
+        "cn": [
+            "Tony Stack"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "2026-04-16 08:58:15+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "displayName": [
+            "Tony Stack"
+        ],
+        "distinguishedName": [
+            "CN=Tony Stack,CN=Users,DC=EMMY,DC=local"
+        ],
+        "givenName": [
+            "Tony"
+        ],
+        "instanceType": [
+            4
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "2026-04-18 09:51:53.027548+00:00"
+        ],
+        "lastLogonTimestamp": [
+            "2026-04-16 16:58:18.564596+00:00"
+        ],
+        "logonCount": [
+            5
+        ],
+        "memberOf": [
+            "CN=Group Policy Creator Owners,OU=Group,DC=EMMY,DC=local",
+            "CN=Domain Admins,OU=Group,DC=EMMY,DC=local",
+            "CN=Enterprise Admins,OU=Group,DC=EMMY,DC=local",
+            "CN=Schema Admins,OU=Group,DC=EMMY,DC=local",
+            "CN=Administrators,CN=Builtin,DC=EMMY,DC=local"
+        ],
+        "name": [
+            "Tony Stack"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=EMMY,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{40acebfe-c5d8-4c60-8688-40ca06faac6d}"
+        ],
+        "objectSid": [
+            "S-1-5-21-3950249079-1792188905-2039997322-1107"
+        ],
+        "primaryGroupID": [
+            513
+        ],
+        "pwdLastSet": [
+            "2026-04-18 08:28:02.511953+00:00"
+        ],
+        "sAMAccountName": [
+            "Tstack"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "sn": [
+            "Stack"
+        ],
+        "uSNChanged": [
+            36900
+        ],
+        "uSNCreated": [
+            16458
+        ],
+        "userAccountControl": [
+            66048
+        ],
+        "userPrincipalName": [
+            "Tstack@EMMY.local"
+        ],
+        "whenChanged": [
+            "2026-04-18 08:28:02+00:00"
+        ],
+        "whenCreated": [
+            "2026-04-16 08:30:29+00:00"
+        ]
+    },
+    "dn": "CN=Tony Stack,CN=Users,DC=EMMY,DC=local"
+},{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999+00:00"
+        ],
+        "badPasswordTime": [
+            "2026-05-03 06:47:40.716852+00:00"
+        ],
+        "badPwdCount": [
+            0
+        ],
+        "cn": [
+            "frank castle"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "displayName": [
+            "frank castle"
+        ],
+        "distinguishedName": [
+            "CN=frank castle,CN=Users,DC=EMMY,DC=local"
+        ],
+        "givenName": [
+            "frank"
+        ],
+        "instanceType": [
+            4
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "2026-05-03 07:31:17.064180+00:00"
+        ],
+        "lastLogonTimestamp": [
+            "2026-04-26 11:45:39.155872+00:00"
+        ],
+        "logonCount": [
+            198
+        ],
+        "name": [
+            "frank castle"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=EMMY,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{479020d3-58d9-4881-85b2-37247c8a4d76}"
+        ],
+        "objectSid": [
+            "S-1-5-21-3950249079-1792188905-2039997322-1106"
+        ],
+        "primaryGroupID": [
+            513
+        ],
+        "pwdLastSet": [
+            "2026-04-18 08:28:36.965658+00:00"
+        ],
+        "sAMAccountName": [
+            "fcastle"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "sn": [
+            "castle"
+        ],
+        "uSNChanged": [
+            110772
+        ],
+        "uSNCreated": [
+            16450
+        ],
+        "userAccountControl": [
+            66048
+        ],
+        "userPrincipalName": [
+            "fcastle@EMMY.local"
+        ],
+        "whenChanged": [
+            "2026-04-26 11:45:39+00:00"
+        ],
+        "whenCreated": [
+            "2026-04-16 08:27:27+00:00"
+        ]
+    },
+    "dn": "CN=frank castle,CN=Users,DC=EMMY,DC=local"
+},{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999+00:00"
+        ],
+        "adminCount": [
+            1
+        ],
+        "badPasswordTime": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "badPwdCount": [
+            0
+        ],
+        "cn": [
+            "krbtgt"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "2026-04-15 22:17:32+00:00",
+            "2026-04-15 22:02:23+00:00",
+            "1601-01-01 00:04:16+00:00"
+        ],
+        "description": [
+            "Key Distribution Center Service Account"
+        ],
+        "distinguishedName": [
+            "CN=krbtgt,CN=Users,DC=EMMY,DC=local"
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "logonCount": [
+            0
+        ],
+        "memberOf": [
+            "CN=Denied RODC Password Replication Group,OU=Group,DC=EMMY,DC=local"
+        ],
+        "msDS-SupportedEncryptionTypes": [
+            0
+        ],
+        "name": [
+            "krbtgt"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=EMMY,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{a945c217-5601-49aa-a8ff-75a83c2fa53f}"
+        ],
+        "objectSid": [
+            "S-1-5-21-3950249079-1792188905-2039997322-502"
+        ],
+        "primaryGroupID": [
+            513
+        ],
+        "pwdLastSet": [
+            "2026-04-15 22:02:22.527912+00:00"
+        ],
+        "sAMAccountName": [
+            "krbtgt"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "servicePrincipalName": [
+            "kadmin/changepw"
+        ],
+        "showInAdvancedViewOnly": [
+            true
+        ],
+        "uSNChanged": [
+            12779
+        ],
+        "uSNCreated": [
+            12324
+        ],
+        "userAccountControl": [
+            514
+        ],
+        "whenChanged": [
+            "2026-04-15 22:17:32+00:00"
+        ],
+        "whenCreated": [
+            "2026-04-15 22:02:22+00:00"
+        ]
+    },
+    "dn": "CN=krbtgt,CN=Users,DC=EMMY,DC=local"
+},{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999+00:00"
+        ],
+        "badPasswordTime": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "badPwdCount": [
+            0
+        ],
+        "cn": [
+            "Guest"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "2026-04-16 08:22:08+00:00",
+            "2026-04-16 08:21:30+00:00",
+            "2026-04-15 22:02:23+00:00",
+            "1601-01-01 18:12:16+00:00"
+        ],
+        "description": [
+            "Built-in account for guest access to the computer/domain"
+        ],
+        "distinguishedName": [
+            "CN=Guest,CN=Users,DC=EMMY,DC=local"
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "logonCount": [
+            0
+        ],
+        "memberOf": [
+            "CN=Guests,CN=Builtin,DC=EMMY,DC=local"
+        ],
+        "name": [
+            "Guest"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=EMMY,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{7b68e4bf-0235-488f-a774-34a87b0f1b5b}"
+        ],
+        "objectSid": [
+            "S-1-5-21-3950249079-1792188905-2039997322-501"
+        ],
+        "primaryGroupID": [
+            514
+        ],
+        "pwdLastSet": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "sAMAccountName": [
+            "Guest"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "uSNChanged": [
+            16434
+        ],
+        "uSNCreated": [
+            8197
+        ],
+        "userAccountControl": [
+            66082
+        ],
+        "whenChanged": [
+            "2026-04-16 08:22:08+00:00"
+        ],
+        "whenCreated": [
+            "2026-04-15 21:59:56+00:00"
+        ]
+    },
+    "dn": "CN=Guest,CN=Users,DC=EMMY,DC=local"
+},{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999+00:00"
+        ],
+        "adminCount": [
+            1
+        ],
+        "badPasswordTime": [
+            "2026-04-20 12:22:09.805330+00:00"
+        ],
+        "badPwdCount": [
+            0
+        ],
+        "cn": [
+            "Administrator"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "2026-04-15 22:17:32+00:00",
+            "2026-04-15 22:17:32+00:00",
+            "2026-04-15 22:02:23+00:00",
+            "1601-01-01 18:12:16+00:00"
+        ],
+        "description": [
+            "Built-in account for administering the computer/domain"
+        ],
+        "distinguishedName": [
+            "CN=Administrator,CN=Users,DC=EMMY,DC=local"
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "2026-05-04 08:04:53.849253+00:00"
+        ],
+        "lastLogonTimestamp": [
+            "2026-04-26 09:21:44.850817+00:00"
+        ],
+        "logonCount": [
+            99
+        ],
+        "memberOf": [
+            "CN=Group Policy Creator Owners,OU=Group,DC=EMMY,DC=local",
+            "CN=Domain Admins,OU=Group,DC=EMMY,DC=local",
+            "CN=Enterprise Admins,OU=Group,DC=EMMY,DC=local",
+            "CN=Schema Admins,OU=Group,DC=EMMY,DC=local",
+            "CN=Administrators,CN=Builtin,DC=EMMY,DC=local"
+        ],
+        "name": [
+            "Administrator"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=EMMY,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{e61da857-c29a-4e8c-9e48-dadc0d600ea9}"
+        ],
+        "objectSid": [
+            "S-1-5-21-3950249079-1792188905-2039997322-500"
+        ],
+        "primaryGroupID": [
+            513
+        ],
+        "pwdLastSet": [
+            "2026-04-16 17:01:00.332010+00:00"
+        ],
+        "sAMAccountName": [
+            "Administrator"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "uSNChanged": [
+            110700
+        ],
+        "uSNCreated": [
+            8196
+        ],
+        "userAccountControl": [
+            66048
+        ],
+        "whenChanged": [
+            "2026-04-26 09:21:44+00:00"
+        ],
+        "whenCreated": [
+            "2026-04-15 21:59:56+00:00"
+        ]
+    },
+    "dn": "CN=Administrator,CN=Users,DC=EMMY,DC=local"
+}]
