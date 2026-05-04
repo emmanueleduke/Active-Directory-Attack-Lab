@@ -24,9 +24,9 @@ The goal is to understand how attackers exploit misconfigurations in AD and how 
 | Attacker | Kali Linux (VMware) |
 | Victim 1 | THEPUNISHER — Windows Domain-Joined Machine |
 | Victim 2 | SPIDERMAN — Windows Domain-Joined Machine |
-| Domain Controller | EMMY DC |
+| Domain Controller | HYDRA-DC (EMMY.local) |
 | Network | NAT (same subnet) |
-| Tools | Responder, ntlmrelayx, Hashcat, John the Ripper, CrackMapExec, Nmap |
+| Tools | Responder, ntlmrelayx, mitm6, Hashcat, John the Ripper, CrackMapExec, Nmap, Impacket |
 
 ---
 
@@ -41,9 +41,13 @@ Active-Directory-Attack-Lab/
 ├── 02-SMB-Relay/
 │   ├── README.md
 │   └── screenshots/
-├── 03-Kerberoasting/          (coming soon)
-├── 04-Pass-the-Hash/          (coming soon)
-└── 05-Privilege-Escalation/   (coming soon)
+├── 03-IPV6-Attack/
+│   ├── README.md
+│   ├── lootme/
+│   └── screenshots/
+├── 04-Kerberoasting/          (coming soon)
+├── 05-Pass-the-Hash/          (coming soon)
+└── 06-Privilege-Escalation/   (coming soon)
 ```
 
 ---
@@ -72,19 +76,33 @@ Instead of cracking hashes offline, this attack relays intercepted NTLM authenti
 | Detail | Info |
 |--------|------|
 | Tools | Responder + ntlmrelayx |
-| Captured | SAM Hashes (local accounts) |
+| Captured | SAM Hashes, Meterpreter Shell, Interactive SMB Shell |
 | MITRE | [T1557.001](https://attack.mitre.org/techniques/T1557/001/), [T1550.002](https://attack.mitre.org/techniques/T1550/002/), [T1003.002](https://attack.mitre.org/techniques/T1003/002/) |
 | Difficulty | Intermediate |
 
 ---
 
-### 🔜 03 — Kerberoasting
-Requests service tickets for domain accounts and cracks them offline to extract service account credentials.
+### ✅ 03 — IPv6 Attack (Full Domain Compromise)
+**[View Module →](03-IPV6-Attack/README.md)**
 
-### 🔜 04 — Pass-the-Hash
+Exploits IPv6 being enabled by default on all modern Windows machines. mitm6 poisons DHCPv6 requests, assigns itself as rogue DNS, and relays authentication to the DC via LDAPS — resulting in full domain enumeration, hash dumping, and SYSTEM access on the Domain Controller.
+
+| Detail | Info |
+|--------|------|
+| Tools | mitm6 + ntlmrelayx + secretsdump |
+| Captured | Full domain enumeration, all domain hashes, DC shell |
+| MITRE | [T1557.001](https://attack.mitre.org/techniques/T1557/001/), [T1003.003](https://attack.mitre.org/techniques/T1003/003/), [T1550.002](https://attack.mitre.org/techniques/T1550/002/) |
+| Difficulty | Advanced |
+
+---
+
+### 🔜 04 — Kerberoasting
+Requests Kerberos service tickets for domain service accounts and cracks them offline to extract plaintext credentials.
+
+### 🔜 05 — Pass-the-Hash
 Uses captured NTLM hashes directly for authentication without cracking — enabling lateral movement across the domain.
 
-### 🔜 05 — Privilege Escalation
+### 🔜 06 — Privilege Escalation
 Exploits AD misconfigurations to escalate from standard user to Domain Admin.
 
 ---
@@ -96,7 +114,9 @@ Exploits AD misconfigurations to escalate from standard user to Domain Admin.
 | LLMNR Poisoning | Adversary-in-the-Middle: LLMNR/NBT-NS Poisoning | [T1557.001](https://attack.mitre.org/techniques/T1557/001/) |
 | SMB Relay | Use of Alternate Authentication Material: Pass the Hash | [T1550.002](https://attack.mitre.org/techniques/T1550/002/) |
 | SMB Relay | OS Credential Dumping: SAM | [T1003.002](https://attack.mitre.org/techniques/T1003/002/) |
-| Both | Use of Valid Accounts | [T1078](https://attack.mitre.org/techniques/T1078/) |
+| IPv6 Attack | OS Credential Dumping: NTDS | [T1003.003](https://attack.mitre.org/techniques/T1003/003/) |
+| IPv6 Attack | Unsecured Credentials | [T1552](https://attack.mitre.org/techniques/T1552/) |
+| All Modules | Use of Valid Accounts | [T1078](https://attack.mitre.org/techniques/T1078/) |
 
 ---
 
@@ -106,7 +126,8 @@ Exploits AD misconfigurations to escalate from standard user to Domain Admin.
 |--------|---------------|
 | LLMNR Poisoning | Disable LLMNR and NetBIOS via Group Policy |
 | SMB Relay | Enable SMB signing on all machines |
-| Both | Monitor NTLM authentication patterns (Event ID 4648, 4624) |
+| IPv6 Attack | Disable IPv6 if not needed, enable LDAP signing |
+| All | Monitor NTLM authentication patterns (Event ID 4648, 4624) |
 
 ---
 
@@ -114,8 +135,9 @@ Exploits AD misconfigurations to escalate from standard user to Domain Admin.
 
 - Legacy protocols like LLMNR expose credentials with zero effort from the attacker
 - SMB Relay is more dangerous — no cracking required, works in real time
-- SMB signing enforcement is the single most effective control against relay attacks
-- Weak passwords and excessive local admin rights amplify every attack in this lab
+- IPv6 attacks bypass LLMNR mitigations and require zero user interaction
+- A single misconfigured service account (password in description) led to full domain compromise
+- SMB signing and IPv6 disabling are the most effective single controls
 - Proper detection requires both **network** (Suricata) and **host** (Splunk/Event Logs) visibility
 
 ---
